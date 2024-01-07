@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD7FC6D2B4A7B5E00F2FE82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7FC6C2B4A7B5E00F2FE82 /* AppDelegate.swift */; };
+		AAD7FC6F2B4A7B5E00F2FE82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7FC6E2B4A7B5E00F2FE82 /* SceneDelegate.swift */; };
+		AAD7FC712B4A7B5E00F2FE82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7FC702B4A7B5E00F2FE82 /* ViewController.swift */; };
+		AAD7FC742B4A7B5E00F2FE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD7FC722B4A7B5E00F2FE82 /* Main.storyboard */; };
+		AAD7FC762B4A7B5F00F2FE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD7FC752B4A7B5F00F2FE82 /* Assets.xcassets */; };
+		AAD7FC792B4A7B5F00F2FE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD7FC772B4A7B5F00F2FE82 /* LaunchScreen.storyboard */; };
+		AAD7FC842B4A7B6000F2FE82 /* Apology_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7FC832B4A7B6000F2FE82 /* Apology_GeneratorTests.swift */; };
+		AAD7FC8E2B4A7B6000F2FE82 /* Apology_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7FC8D2B4A7B6000F2FE82 /* Apology_GeneratorUITests.swift */; };
+		AAD7FC902B4A7B6000F2FE82 /* Apology_GeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7FC8F2B4A7B6000F2FE82 /* Apology_GeneratorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAD7FC802B4A7B6000F2FE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD7FC612B4A7B5E00F2FE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD7FC682B4A7B5E00F2FE82;
+			remoteInfo = "Apology Generator";
+		};
+		AAD7FC8A2B4A7B6000F2FE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD7FC612B4A7B5E00F2FE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD7FC682B4A7B5E00F2FE82;
+			remoteInfo = "Apology Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAD7FC692B4A7B5E00F2FE82 /* Apology Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apology Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD7FC6C2B4A7B5E00F2FE82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAD7FC6E2B4A7B5E00F2FE82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AAD7FC702B4A7B5E00F2FE82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAD7FC732B4A7B5E00F2FE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAD7FC752B4A7B5F00F2FE82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAD7FC782B4A7B5F00F2FE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAD7FC7A2B4A7B5F00F2FE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD7FC7F2B4A7B6000F2FE82 /* Apology GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apology GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD7FC832B4A7B6000F2FE82 /* Apology_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apology_GeneratorTests.swift; sourceTree = "<group>"; };
+		AAD7FC892B4A7B6000F2FE82 /* Apology GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apology GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD7FC8D2B4A7B6000F2FE82 /* Apology_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apology_GeneratorUITests.swift; sourceTree = "<group>"; };
+		AAD7FC8F2B4A7B6000F2FE82 /* Apology_GeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apology_GeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD7FC662B4A7B5E00F2FE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7FC7C2B4A7B6000F2FE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7FC862B4A7B6000F2FE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD7FC602B4A7B5E00F2FE82 = {
+			isa = PBXGroup;
+			children = (
+				AAD7FC6B2B4A7B5E00F2FE82 /* Apology Generator */,
+				AAD7FC822B4A7B6000F2FE82 /* Apology GeneratorTests */,
+				AAD7FC8C2B4A7B6000F2FE82 /* Apology GeneratorUITests */,
+				AAD7FC6A2B4A7B5E00F2FE82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD7FC6A2B4A7B5E00F2FE82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7FC692B4A7B5E00F2FE82 /* Apology Generator.app */,
+				AAD7FC7F2B4A7B6000F2FE82 /* Apology GeneratorTests.xctest */,
+				AAD7FC892B4A7B6000F2FE82 /* Apology GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD7FC6B2B4A7B5E00F2FE82 /* Apology Generator */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7FC6C2B4A7B5E00F2FE82 /* AppDelegate.swift */,
+				AAD7FC6E2B4A7B5E00F2FE82 /* SceneDelegate.swift */,
+				AAD7FC702B4A7B5E00F2FE82 /* ViewController.swift */,
+				AAD7FC722B4A7B5E00F2FE82 /* Main.storyboard */,
+				AAD7FC752B4A7B5F00F2FE82 /* Assets.xcassets */,
+				AAD7FC772B4A7B5F00F2FE82 /* LaunchScreen.storyboard */,
+				AAD7FC7A2B4A7B5F00F2FE82 /* Info.plist */,
+			);
+			path = "Apology Generator";
+			sourceTree = "<group>";
+		};
+		AAD7FC822B4A7B6000F2FE82 /* Apology GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7FC832B4A7B6000F2FE82 /* Apology_GeneratorTests.swift */,
+			);
+			path = "Apology GeneratorTests";
+			sourceTree = "<group>";
+		};
+		AAD7FC8C2B4A7B6000F2FE82 /* Apology GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7FC8D2B4A7B6000F2FE82 /* Apology_GeneratorUITests.swift */,
+				AAD7FC8F2B4A7B6000F2FE82 /* Apology_GeneratorUITestsLaunchTests.swift */,
+			);
+			path = "Apology GeneratorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD7FC682B4A7B5E00F2FE82 /* Apology Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD7FC932B4A7B6000F2FE82 /* Build configuration list for PBXNativeTarget "Apology Generator" */;
+			buildPhases = (
+				AAD7FC652B4A7B5E00F2FE82 /* Sources */,
+				AAD7FC662B4A7B5E00F2FE82 /* Frameworks */,
+				AAD7FC672B4A7B5E00F2FE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apology Generator";
+			productName = "Apology Generator";
+			productReference = AAD7FC692B4A7B5E00F2FE82 /* Apology Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAD7FC7E2B4A7B6000F2FE82 /* Apology GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD7FC962B4A7B6000F2FE82 /* Build configuration list for PBXNativeTarget "Apology GeneratorTests" */;
+			buildPhases = (
+				AAD7FC7B2B4A7B6000F2FE82 /* Sources */,
+				AAD7FC7C2B4A7B6000F2FE82 /* Frameworks */,
+				AAD7FC7D2B4A7B6000F2FE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD7FC812B4A7B6000F2FE82 /* PBXTargetDependency */,
+			);
+			name = "Apology GeneratorTests";
+			productName = "Apology GeneratorTests";
+			productReference = AAD7FC7F2B4A7B6000F2FE82 /* Apology GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAD7FC882B4A7B6000F2FE82 /* Apology GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD7FC992B4A7B6000F2FE82 /* Build configuration list for PBXNativeTarget "Apology GeneratorUITests" */;
+			buildPhases = (
+				AAD7FC852B4A7B6000F2FE82 /* Sources */,
+				AAD7FC862B4A7B6000F2FE82 /* Frameworks */,
+				AAD7FC872B4A7B6000F2FE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD7FC8B2B4A7B6000F2FE82 /* PBXTargetDependency */,
+			);
+			name = "Apology GeneratorUITests";
+			productName = "Apology GeneratorUITests";
+			productReference = AAD7FC892B4A7B6000F2FE82 /* Apology GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD7FC612B4A7B5E00F2FE82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					AAD7FC682B4A7B5E00F2FE82 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					AAD7FC7E2B4A7B6000F2FE82 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = AAD7FC682B4A7B5E00F2FE82;
+					};
+					AAD7FC882B4A7B6000F2FE82 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = AAD7FC682B4A7B5E00F2FE82;
+					};
+				};
+			};
+			buildConfigurationList = AAD7FC642B4A7B5E00F2FE82 /* Build configuration list for PBXProject "Apology Generator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAD7FC602B4A7B5E00F2FE82;
+			productRefGroup = AAD7FC6A2B4A7B5E00F2FE82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD7FC682B4A7B5E00F2FE82 /* Apology Generator */,
+				AAD7FC7E2B4A7B6000F2FE82 /* Apology GeneratorTests */,
+				AAD7FC882B4A7B6000F2FE82 /* Apology GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD7FC672B4A7B5E00F2FE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD7FC792B4A7B5F00F2FE82 /* LaunchScreen.storyboard in Resources */,
+				AAD7FC762B4A7B5F00F2FE82 /* Assets.xcassets in Resources */,
+				AAD7FC742B4A7B5E00F2FE82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7FC7D2B4A7B6000F2FE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7FC872B4A7B6000F2FE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD7FC652B4A7B5E00F2FE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD7FC712B4A7B5E00F2FE82 /* ViewController.swift in Sources */,
+				AAD7FC6D2B4A7B5E00F2FE82 /* AppDelegate.swift in Sources */,
+				AAD7FC6F2B4A7B5E00F2FE82 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7FC7B2B4A7B6000F2FE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD7FC842B4A7B6000F2FE82 /* Apology_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD7FC852B4A7B6000F2FE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD7FC902B4A7B6000F2FE82 /* Apology_GeneratorUITestsLaunchTests.swift in Sources */,
+				AAD7FC8E2B4A7B6000F2FE82 /* Apology_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAD7FC812B4A7B6000F2FE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD7FC682B4A7B5E00F2FE82 /* Apology Generator */;
+			targetProxy = AAD7FC802B4A7B6000F2FE82 /* PBXContainerItemProxy */;
+		};
+		AAD7FC8B2B4A7B6000F2FE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD7FC682B4A7B5E00F2FE82 /* Apology Generator */;
+			targetProxy = AAD7FC8A2B4A7B6000F2FE82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAD7FC722B4A7B5E00F2FE82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD7FC732B4A7B5E00F2FE82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAD7FC772B4A7B5F00F2FE82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD7FC782B4A7B5F00F2FE82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAD7FC912B4A7B6000F2FE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAD7FC922B4A7B6000F2FE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD7FC942B4A7B6000F2FE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Apology Generator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan.Apology-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAD7FC952B4A7B6000F2FE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Apology Generator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan.Apology-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAD7FC972B4A7B6000F2FE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan.Apology-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apology Generator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apology Generator";
+			};
+			name = Debug;
+		};
+		AAD7FC982B4A7B6000F2FE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan.Apology-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apology Generator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apology Generator";
+			};
+			name = Release;
+		};
+		AAD7FC9A2B4A7B6000F2FE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan.Apology-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apology Generator";
+			};
+			name = Debug;
+		};
+		AAD7FC9B2B4A7B6000F2FE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ethan.Apology-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apology Generator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD7FC642B4A7B5E00F2FE82 /* Build configuration list for PBXProject "Apology Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD7FC912B4A7B6000F2FE82 /* Debug */,
+				AAD7FC922B4A7B6000F2FE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD7FC932B4A7B6000F2FE82 /* Build configuration list for PBXNativeTarget "Apology Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD7FC942B4A7B6000F2FE82 /* Debug */,
+				AAD7FC952B4A7B6000F2FE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD7FC962B4A7B6000F2FE82 /* Build configuration list for PBXNativeTarget "Apology GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD7FC972B4A7B6000F2FE82 /* Debug */,
+				AAD7FC982B4A7B6000F2FE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD7FC992B4A7B6000F2FE82 /* Build configuration list for PBXNativeTarget "Apology GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD7FC9A2B4A7B6000F2FE82 /* Debug */,
+				AAD7FC9B2B4A7B6000F2FE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD7FC612B4A7B5E00F2FE82 /* Project object */;
+}
